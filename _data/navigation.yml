@@ -2,8 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  - title: "AWS Development"
-    url: /aws-development/
+  - title: "Development"
+    url: /development/
+  - title: "Robotics"
+    url: /robotics/
+  - title: "My Github"
+    url: https://github.com/ajakacky
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

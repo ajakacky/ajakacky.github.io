@@ -1,9 +1,11 @@
 ---
 layout: archive
-permalink: /aws-development/
-title: "AWS Development Work"
+permalink: /robotics/
+title: "Robotics Work"
 author_profile: true
 ---
+
+This page contains posts for all the robotics work that I have done over the years
 
 {% include group-by-array collection=site.posts field="tags" %}
 

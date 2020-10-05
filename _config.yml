@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Austin Jakacky"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Austin's Development and Robotics Portfolio" # site tagline that appears below site title in masthead
 name                     : "Austin Jakacky"
 description              : "Developer Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Austin Jakacky"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Full Stack Developer and avid Robotics enthusiast"
+  bio              : "Full Stack Developer and Robotics enthusiast"
   location         : "Connecticut"
   email            : "ajakacky@gmail.com"
   linkedin         : "austinjakacky"
