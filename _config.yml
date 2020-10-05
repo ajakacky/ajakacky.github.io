@@ -96,8 +96,7 @@ author:
   name             : "Austin Jakacky"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Full Stack Developer and Robotics enthusiast"
-  location         : "Connecticut"
-  email            : "ajakacky@gmail.com"
+  location         : "Hartford County, Connecticut"
   linkedin         : "austinjakacky"
   github           : "ajakacky"
   links:
