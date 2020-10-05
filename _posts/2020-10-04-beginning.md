@@ -1,10 +1,10 @@
 ---
-title: "First Project"
+title: "Hololens AR Fire Escape Demo"
 date: 2020-04-10
 tags: [Web Development]
-excerpt: "AWS Development, First Project"
+excerpt: "Hololens AR Research Project"
 ---
 
-## This is my first project on my portfolio
+## Hololens Fire Escape Demo
 
-Just wanted to give a quick description of what is on this site so that way I have something to look at :P
+This page will contain information on the Hololens Fire Escape Demo I worked on a couple summers ago
