@@ -3,6 +3,7 @@ layout: archive
 permalink: /robotics/
 title: "Robotics Work"
 author_profile: true
+categories: ['robotics','robots','IoT']
 ---
 
 This page contains posts for all the robotics work that I have done over the years
@@ -13,6 +14,8 @@ This page contains posts for all the robotics work that I have done over the yea
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
-    {% include archive-single.html %}
+    {% if page.categories contains post.category %}
+        {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
