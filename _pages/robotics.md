@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: /categories/robotics/
+permalink: /categories/Robotics/
 taxonomy: Robotics
 title: "Robotics Work"
 author_profile: true

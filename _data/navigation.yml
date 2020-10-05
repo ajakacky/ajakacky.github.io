@@ -3,9 +3,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Development"
-    url: /categories/development/
+    url: /categories/Development/
   - title: "Robotics"
-    url: /categories/robotics/
+    url: /categories/Robotics/
   - title: "My Github"
     url: https://github.com/ajakacky
   # - title: "About"
