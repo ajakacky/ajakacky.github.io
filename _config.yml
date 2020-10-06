@@ -295,7 +295,7 @@ defaults:
 
   # _docs
   - scope:
-      path: ""
+      path: "*/non-euclid-engine"
       type: euclid-docs
     values:
       layout: single
