@@ -1,6 +1,6 @@
 ---
 title: "Description of the Project"
-permalink: /euclid-engine/desc/
+permalink: /desc/
 sidebar:
     nav: "euclid-docs"
 ---

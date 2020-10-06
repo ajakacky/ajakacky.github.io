@@ -1,6 +1,6 @@
 ---
 title: "Architecture and Design of the Project"
-permalink: /euclid-engine/scenes/
+permalink: /scenes/
 sidebar:
     nav: "euclid-docs"
 ---
