@@ -1,5 +1,6 @@
 ---
 title: "How to Install this Project"
+layout: single
 permalink: /docs/installation/
 ---
 
