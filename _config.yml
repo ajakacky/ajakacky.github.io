@@ -266,6 +266,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  euclid-docs:
+    output: true
+
 # Defaults
 defaults:
   # _posts
@@ -291,10 +295,10 @@ defaults:
   # _docs
   - scope:
       path: ""
-      type: docs
+      type: euclid-docs
     values:
       layout: single
       author_profile: false
       share: true
       sidebar:
-        nav: "docs"
+        nav: "euclid-docs"

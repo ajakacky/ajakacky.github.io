@@ -1,6 +1,6 @@
 ---
 title: "Packages and tools used in this project"
-permalink: /euclid-engine/structure/
+permalink: /non-euclid-engine/structure/
 sidebar:
     nav: "euclid-docs"
 ---

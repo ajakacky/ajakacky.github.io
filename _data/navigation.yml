@@ -21,13 +21,13 @@ euclid-docs:
   - title: Content
     children:
       - title: "Description"
-        url: /euclid-engine/desc/
+        url: /non-euclid-engine/desc/
       - title: "Behind The Scenes"
-        url: /euclid-engine/scenes/
+        url: /non-euclid-engine/scenes/
 
   - title: Setup
     children:
       - title: "Packages and Tools"
-        url: /euclid-engine/structure/
+        url: /non-euclid-engine/structure/
       - title: "Installation"
-        url: /euclid-engine/installation/
+        url: /non-euclid-engine/installation/
