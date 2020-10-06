@@ -17,17 +17,17 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
+euclid-docs:
   - title: Content
     children:
       - title: "Description"
-        url: /docs/desc/
+        url: /euclid-engine/desc/
       - title: "Behind The Scenes"
-        url: /docs/scenes/
+        url: /euclid-engine/scenes/
 
   - title: Setup
     children:
       - title: "Packages and Tools"
-        url: /docs/structure/
+        url: /euclid-engine/structure/
       - title: "Installation"
-        url: /docs/installation/
+        url: /euclid-engine/installation/

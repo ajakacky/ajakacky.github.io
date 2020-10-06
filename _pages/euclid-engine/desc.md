@@ -1,6 +1,6 @@
 ---
 title: "Description of the Project"
-permalink: /docs/desc/
+permalink: /euclid-engine/desc/
 ---
 
 This project was cool.

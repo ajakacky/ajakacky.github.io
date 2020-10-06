@@ -5,7 +5,7 @@ excerpt: "Game Engine Development"
 category: Development
 author_profile: false
 sidebar:
-    nav: "docs"
+    nav: "euclid-docs"
 ---
 
 This page will contain information on the Non-Euclidean Game Engine I am developing
