@@ -1,6 +1,6 @@
 ---
 title: "How to Install this Project"
-permalink: /installation/
+permalink: /non-euclid-engine/installation/
 sidebar:
     nav: "euclid-docs"
 ---
