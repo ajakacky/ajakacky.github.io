@@ -1,6 +1,5 @@
 ---
 title: "Description of the Project"
-layout: single
 permalink: /docs/desc/
 ---
 
