@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: /categories/Development/
+permalink: /development/
 taxonomy: Development
 title: "Developer Work"
 author_profile: true
