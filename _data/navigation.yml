@@ -21,7 +21,7 @@ euclid-docs:
   - title: Content
     children:
       - title: "About"
-      - url: /non-euclid-engine/
+      - url: /development/non-euclid-engine/
       - title: "Description"
         url: /non-euclid-engine/desc/
       - title: "Behind The Scenes"
