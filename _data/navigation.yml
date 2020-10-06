@@ -17,19 +17,19 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-  docs:
-    - title: Content
-      children:
-        - title: "Description"
-          url: /docs/desc/
-        - title: "Behind The Scenes"
-          url: /docs/scenes/
+docs:
+  - title: Content
+    children:
+      - title: "Description"
+        url: /docs/desc/
+      - title: "Behind The Scenes"
+        url: /docs/scenes/
 
-    - title: Setup
-      children:
-        - title: "Packages and Tools"
-          url: /docs/structure/
-        - title: "Installation"
-          url: /docs/installation/
-        - title: "Upgrading"
-          url: /docs/upgrading/
+  - title: Setup
+    children:
+      - title: "Packages and Tools"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
