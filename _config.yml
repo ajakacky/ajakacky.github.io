@@ -293,8 +293,7 @@ defaults:
     values: 
       layout: single
       author_profile: true
-
-  defaults:
+      
   # _docs
   - scope:
       path: ""
