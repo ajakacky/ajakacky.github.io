@@ -301,5 +301,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      hidden: true
       sidebar:
         nav: "euclid-docs"

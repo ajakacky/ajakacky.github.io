@@ -23,13 +23,13 @@ euclid-docs:
       - title: "About"
       - url: /development/non-euclid-engine/
       - title: "Description"
-        url: /non-euclid-engine/desc/
+        url: /euclid-docs/non-euclid-engine/desc/
       - title: "Behind The Scenes"
-        url: /non-euclid-engine/scenes/
+        url: /euclid-docs/non-euclid-engine/scenes/
 
   - title: Setup
     children:
       - title: "Packages and Tools"
-        url: /non-euclid-engine/structure/
+        url: /euclid-docs/non-euclid-engine/structure/
       - title: "Installation"
-        url: /non-euclid-engine/installation/
+        url: /euclid-docs/non-euclid-engine/installation/
