@@ -1,6 +1,6 @@
 ---
 title: "Python Graphics Engine"
-date: 2020-05-10
+date: 2020-10-05
 excerpt: "Game Engine Development"
 category: Development
 ---

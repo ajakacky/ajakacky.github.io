@@ -1,6 +1,6 @@
 ---
 title: "Hololens AR Fire Escape Demo"
-date: 2020-04-10
+date: 2020-10-04
 excerpt: "Hololens AR Research Project"
 category: Robotics
 ---
