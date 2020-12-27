@@ -1,5 +1,5 @@
 ---
-title: "Austin's Projects and Programss"
+title: "Austin's Projects and Programs"
 permalink: /
 layout: home
 ---
