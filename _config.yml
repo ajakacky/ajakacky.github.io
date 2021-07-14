@@ -303,4 +303,4 @@ defaults:
       share: true
       hidden: true
       sidebar:
-        nav: "euclid-docs"
+        nav: "non-euclid-engine"

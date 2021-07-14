@@ -17,17 +17,19 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-euclid-docs:
+non-euclid-engine:
   - title: Content
     children:
+      - title: "About"
+        url: /non-euclid-engine/about/
       - title: "Description"
-        url: /euclid-docs/non-euclid-engine/desc/
+        url: /non-euclid-engine/desc/
       - title: "Behind the Scenes"
-        url: /euclid-docs/non-euclid-engine/scenes/
+        url: /non-euclid-engine/scenes/
 
   - title: Setup
     children:
       - title: "Packages and Tools"
-        url: /euclid-docs/non-euclid-engine/structure/
+        url: /non-euclid-engine/structure/
       - title: "Installation"
-        url: /euclid-docs/non-euclid-engine/installation/
+        url: /non-euclid-engine/installation/
