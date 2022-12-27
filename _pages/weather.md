@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: empty
 permalink: /weather/
 ---
 <a class="weatherwidget-io" href="https://forecast7.com/en/41d66n72d78/new-britain/?unit=us" data-label_1="NEW BRITAIN" data-label_2="WEATHER" data-theme="dark" >NEW BRITAIN WEATHER</a>
