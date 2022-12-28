@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svidget="http://www.svidget.org/svidget"
 		 width="400" height="400" viewBox="0 0 400 400">
 	<title>Clock Widget</title>
@@ -36,7 +37,9 @@
 	</svidget:events>
 		
 	<style>
-		<![CDATA[			a.footer { fill: #afafaf; }			g#labels text { font-family: Helvetica, Arial; font-size: 32px; font-weight: bold; alignment-baseline: text-top; fill: #000; text-anchor: middle; }		]]>
+		<![CDATA[
+			g#labels text { font-family: Helvetica, Arial; font-size: 32px; font-weight: bold; alignment-baseline: text-top; fill: #000; text-anchor: middle; }
+		]]>
 	</style>
 
 	<defs>
@@ -151,12 +154,12 @@
 
 	<g>
 		<text id="footer" font-size="10" font-family="Helvetica" x="395" y="395" fill="#7f7f7f" text-anchor="end">
-			<a xlink:href="http://www.svidget.com" class="footer">Powered by Svidget.js</a>.
+			Powered by <a xlink:href="http://www.svidget.com" fill="#1f1f1f">Svidget.js</a>
 		</text>
 	</g>
 
-	<script type="application/javascript" xlink:href="../scripts/svidget.min.js"></script>
-	<script type="application/javascript" xlink:href="../scripts/snap.svg-min.js"></script>
+	<script type="application/javascript" xlink:href="/assets/js/svidget.min.js"></script>
+	<script type="application/javascript" xlink:href="/assets/js/snap.svg-min.js"></script>
 	<script type="application/javascript">
 		<![CDATA[
 	
