@@ -3,7 +3,7 @@ layout: empty
 permalink: /clock/
 ---
 
-<object id="clock" role="svidget" data="/assets/clock.svg" type="image/svg+xml" width="400" height="400">
+<object id="clock" role="svidget" data="/assets/clock.svg" type="image/svg+xml" width="100%" height="100%">
 	<param name="data" value="" />
 	<param name="backgroundColor" value="#fff" />
 	<param name="frameColor" value="#000" />
