@@ -6,3 +6,295 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Custom Modern Dark Theme Overrides
+   ========================================================================== */
+
+/* Enhanced color palette for a more modern look */
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #1c2128;
+  --text-primary: #e6edf3;
+  --text-secondary: #8d96a0;
+  --accent-primary: #58a6ff;
+  --accent-secondary: #1f6feb;
+  --border-color: #30363d;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Override base background for darker theme */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.page {
+  background-color: var(--bg-primary);
+}
+
+.masthead {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.page__content {
+  background-color: var(--bg-secondary);
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  margin-bottom: 2em;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  text-align: center;
+  padding: 3em 1em;
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e293b 100%);
+  border-radius: 12px;
+  margin-bottom: 2em;
+  box-shadow: 0 8px 24px rgba(30, 58, 138, 0.3);
+}
+
+.hero-title {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+  background: linear-gradient(135deg, #58a6ff 0%, #79c0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.3em;
+  color: var(--text-secondary);
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Enhanced Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+h2 {
+  border-bottom: 2px solid var(--accent-primary);
+  padding-bottom: 0.3em;
+  font-size: 1.8em;
+}
+
+h3 {
+  color: var(--accent-primary);
+  font-size: 1.4em;
+}
+
+p {
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin-bottom: 1.2em;
+}
+
+/* Links */
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: #79c0ff;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+}
+
+/* Archive items (blog posts) */
+.archive__item {
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(88, 166, 255, 0.2);
+    border-color: var(--accent-primary);
+  }
+}
+
+.archive__item-title {
+  color: var(--accent-primary);
+  font-weight: 600;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.archive__item-excerpt {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.author__avatar img {
+  border: 3px solid var(--accent-primary);
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+}
+
+.author__content {
+  color: var(--text-primary);
+}
+
+.author__bio {
+  color: var(--text-secondary);
+  font-size: 0.95em;
+}
+
+.author__urls {
+  li {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin-bottom: 0.5em;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: var(--accent-secondary);
+      border-color: var(--accent-primary);
+      transform: translateX(4px);
+    }
+  }
+  
+  a {
+    color: var(--text-primary);
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+/* Footer */
+.page__footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border: 1px solid var(--accent-primary);
+  border-radius: 8px;
+  padding: 2em;
+  margin-top: 2em;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.2);
+  
+  p {
+    margin: 0;
+    font-size: 1.1em;
+    color: var(--text-primary);
+  }
+}
+
+/* Code blocks */
+pre, code {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.highlight {
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--accent-secondary);
+  border: 1px solid var(--accent-primary);
+  color: white;
+  border-radius: 6px;
+  padding: 0.75em 1.5em;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: var(--accent-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(88, 166, 255, 0.4);
+  }
+}
+
+/* Navigation */
+.greedy-nav {
+  background-color: var(--bg-secondary);
+  
+  a {
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: var(--accent-primary);
+    }
+  }
+  
+  .visible-links a:hover {
+    background-color: var(--bg-tertiary);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  border: 2px solid var(--bg-primary);
+  
+  &:hover {
+    background: var(--accent-secondary);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2em;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1em;
+  }
+  
+  .page__content {
+    padding: 1.5em;
+  }
+}
